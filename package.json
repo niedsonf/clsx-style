@@ -1,0 +1,22 @@
+{
+  "name": "clsx-style",
+  "version": "1.0.2",
+  "description": "clsx extension for tailwind styling",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "tsc.cmd src/index.ts",
+    "test": "uvu -r esm test"
+  },
+  "keywords": [
+    "clsx",
+    "tailwind",
+    "classnames"
+  ],
+  "author": "Niedson Fernando Dantas Fernandes",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "3.2.25",
+    "terser": "^4.8.1",
+    "uvu": "0.5.4"
+  }
+}
