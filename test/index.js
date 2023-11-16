@@ -139,7 +139,7 @@ test('functions', () => {
 
 test('apply styles with prefix 1', () => {
 	// @ts-ignore
-	assert.is(fn('flex', { prefix: 'hover:', style: 'bg-green-700 text-white' }), 'flex hover:bg-green-700 hover:text-white');
+	assert.is(fn('flex', { prefix: 'hover:', style: 'bg-green-700 text-white rounded' }), 'flex hover:bg-green-700 hover:text-white hover:rounded');
 });
 
 test('apply styles with prefix 2', () => {
