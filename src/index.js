@@ -21,7 +21,7 @@ function toVal(mix) {
             if (typeof mix.prefix === 'string' && mix.style) {
                 if (typeof mix.style === 'string' || typeof mix.style === 'number') {
                     y = mix.style
-                        .replace(' ', (' ' + mix.prefix));
+                        .replaceAll(' ', (' ' + mix.prefix));
                     y = mix.prefix + y;
                     str && (str += ' ');
                     str += y;
