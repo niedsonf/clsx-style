@@ -1,6 +1,6 @@
 {
   "name": "clsx-style",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "clsx extension for tailwind styling",
   "main": "./src/index.js",
   "repository": {
