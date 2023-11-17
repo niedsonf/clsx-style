@@ -23,7 +23,7 @@ function toVal(mix: any) {
                     str += y;
                 } else if (typeof mix.style === 'object') {
                     y = toVal(mix.style)
-                        .replace(' ', (' ' + mix.prefix))
+                        .replaceAll(' ', (' ' + mix.prefix))
                     y = mix.prefix + y
                     str && (str += ' ');
                     str += y;
