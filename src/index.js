@@ -27,8 +27,8 @@ function toVal(mix) {
                 }
                 else if (typeof mix.style === 'object') {
                     y = toVal(mix.style);
-                    y.replaceAll(' ', (' ' + mix.prefix));
                     y = mix.prefix + y;
+                    y = y.replaceAll(' ', (' ' + mix.prefix));
                     str && (str += ' ');
                     str += y;
                 }

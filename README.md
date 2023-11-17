@@ -1,4 +1,4 @@
-# CLSX Style
+# CLSX Style (LIB UNDER CONSTRUCTION)
 
 A utility function built on top of [clsx](https://www.npmjs.com/package/clsx) to avoid repeating prefixes on tailwind styling
 
@@ -36,7 +36,6 @@ cs(
 cs([{ prefix: 'hover:', style: 'bg-green-700' }, 'a'], { prefix: 'hover:', style: 'text-white', props: ['s', {}, []] })
 // => 'hover:bg-green-700 a hover:text-white'
 
-// Feel free to experiments :)
 ```
 
 ```jsx
