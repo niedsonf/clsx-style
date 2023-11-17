@@ -1,11 +1,13 @@
 {
-    "compilerOptions": {
-      "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-      "module": "CommonJS",
-      "noEmit": true,
-      "skipLibCheck": true,
-      "strict": true,
-      "target": "ESNext"
-    }
-  }
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2021",
+    "lib": ["es2021"]
+  },
+  "include": ["**/*.ts"]
+}
